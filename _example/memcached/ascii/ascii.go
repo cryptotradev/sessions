@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/andrewfrench/sessions"
+	"github.com/andrewfrench/sessions/memcached"
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memcached"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,9 +3,9 @@ package memcached
 import (
 	"testing"
 
+	"github.com/andrewfrench/sessions"
+	"github.com/andrewfrench/sessions/tester"
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
 	"github.com/memcachier/mc"
 )
 
