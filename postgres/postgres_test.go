@@ -2,8 +2,8 @@ package postgres
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/tester"
 	"testing"
 )
 

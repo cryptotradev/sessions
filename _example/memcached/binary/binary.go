@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memcached"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/memcached"
 	"github.com/gin-gonic/gin"
 	"github.com/memcachier/mc"
 )

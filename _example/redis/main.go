@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/redis"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/redis"
 	"github.com/gin-gonic/gin"
 )
 

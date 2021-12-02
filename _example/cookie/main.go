@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/cookie"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/cookie"
 	"github.com/gin-gonic/gin"
 )
 
