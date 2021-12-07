@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: postgres/postgres_test.go
+  checksum: c354d64ffc5ea63e06c43cb9a611d0c6a87f4aa8af88453997faf10b981e1ab5
+  ignore_detectors: [filecontent]
