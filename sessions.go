@@ -117,9 +117,6 @@ func (s *session) Options(options Options) {
 
 func (s *session) Save() error {
 	if s.Written() {
-		ss := s.Session()
-		ss.IsNew = true
-		s.session = ss
 		e := s.Session().Save(s.request, s.writer)
 		if e == nil {
 			s.written = false
