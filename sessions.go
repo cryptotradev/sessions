@@ -45,6 +45,7 @@ type Session interface {
 	// Save saves all sessions used during the current request.
 	Save() error
 	Session() *sessions.Session
+	SetIsNewFieldToTrue()
 }
 
 func Sessions(name string, store Store) gin.HandlerFunc {
@@ -150,4 +151,9 @@ func Default(c *gin.Context) Session {
 // shortcut to get session with given name
 func DefaultMany(c *gin.Context, name string) Session {
 	return c.MustGet(DefaultKey).(map[string]Session)[name]
+}
+
+func (s *session) SetIsNewFieldToTrue() {
+	s.Session().IsNew = true
+	s.written = true
 }
