@@ -3,7 +3,7 @@ package redis
 import (
 	"errors"
 
-	"github.com/andrewfrench/sessions"
+	"github.com/cryptotradev/sessions"
 	"github.com/boj/redistore"
 	"github.com/gomodule/redigo/redis"
 )

@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	DefaultKey  = "github.com/andrewfrench/sessions"
+	DefaultKey  = "github.com/cryptotradev/sessions"
 	errorFormat = "[sessions] ERROR! %s\n"
 )
 

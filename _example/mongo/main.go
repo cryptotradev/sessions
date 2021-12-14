@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/andrewfrench/sessions"
-	"github.com/andrewfrench/sessions/mongo"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/mongo"
 	"github.com/gin-gonic/gin"
 	"github.com/globalsign/mgo"
 )

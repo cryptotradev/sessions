@@ -2,7 +2,7 @@ package postgres
 
 import (
 	"database/sql"
-	"github.com/andrewfrench/sessions"
+	"github.com/cryptotradev/sessions"
 	"github.com/antonlindstrom/pgstore"
 )
 

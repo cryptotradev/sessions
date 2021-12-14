@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/andrewfrench/sessions"
+	"github.com/cryptotradev/sessions"
 	"github.com/gin-gonic/gin"
 )
 

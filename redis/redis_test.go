@@ -3,8 +3,8 @@ package redis
 //import (
 //	"testing"
 //
-//	"github.com/andrewfrench/sessions"
-//	"github.com/andrewfrench/sessions/tester"
+//	"github.com/cryptotradev/sessions"
+//	"github.com/cryptotradev/sessions/tester"
 //)
 //
 //const redisTestServer = "localhost:6379"

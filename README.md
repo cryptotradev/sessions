@@ -1,10 +1,10 @@
 # sessions
 
-[![Run CI Lint](https://github.com/andrewfrench/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/andrewfrench/sessions/actions/workflows/lint.yml)
-[![Run Testing](https://github.com/andrewfrench/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/andrewfrench/sessions/actions/workflows/testing.yml)
+[![Run CI Lint](https://github.com/cryptotradev/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/cryptotradev/sessions/actions/workflows/lint.yml)
+[![Run Testing](https://github.com/cryptotradev/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/cryptotradev/sessions/actions/workflows/testing.yml)
 [![codecov](https://codecov.io/gh/gin-contrib/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/sessions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/andrewfrench/sessions)](https://goreportcard.com/report/github.com/andrewfrench/sessions)
-[![GoDoc](https://godoc.org/github.com/andrewfrench/sessions?status.svg)](https://godoc.org/github.com/andrewfrench/sessions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cryptotradev/sessions)](https://goreportcard.com/report/github.com/cryptotradev/sessions)
+[![GoDoc](https://godoc.org/github.com/cryptotradev/sessions?status.svg)](https://godoc.org/github.com/cryptotradev/sessions)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
 
 Gin middleware for session management with multi-backend support:
@@ -23,13 +23,13 @@ Gin middleware for session management with multi-backend support:
 Download and install it:
 
 ```bash
-go get github.com/andrewfrench/sessions
+go get github.com/cryptotradev/sessions
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/andrewfrench/sessions"
+import "github.com/cryptotradev/sessions"
 ```
 
 ## Basic Examples
@@ -40,8 +40,8 @@ import "github.com/andrewfrench/sessions"
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/cookie"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -70,8 +70,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/cookie"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -112,8 +112,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/cookie"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -146,8 +146,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/redis"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/redis"
   "github.com/gin-gonic/gin"
 )
 
@@ -183,8 +183,8 @@ package main
 
 import (
   "github.com/bradfitz/gomemcache/memcache"
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/memcached"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/memcached"
   "github.com/gin-gonic/gin"
 )
 
@@ -217,8 +217,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/memcached"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/memcached"
   "github.com/gin-gonic/gin"
   "github.com/memcachier/mc"
 )
@@ -253,8 +253,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/mongo"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/mongo"
   "github.com/gin-gonic/gin"
   "github.com/globalsign/mgo"
 )
@@ -294,8 +294,8 @@ func main() {
 package main
 
 import (
-  "github.com/andrewfrench/sessions"
-  "github.com/andrewfrench/sessions/memstore"
+  "github.com/cryptotradev/sessions"
+  "github.com/cryptotradev/sessions/memstore"
   "github.com/gin-gonic/gin"
 )
 
@@ -329,8 +329,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/andrewfrench/sessions"
-	"github.com/andrewfrench/sessions/postgres"
+	"github.com/cryptotradev/sessions"
+	"github.com/cryptotradev/sessions/postgres"
 	"github.com/gin-gonic/gin"
 )
 

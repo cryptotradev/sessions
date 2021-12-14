@@ -1,7 +1,7 @@
 package memstore
 
 import (
-	"github.com/andrewfrench/sessions"
+	"github.com/cryptotradev/sessions"
 	"github.com/quasoft/memstore"
 )
 

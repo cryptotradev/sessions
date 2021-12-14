@@ -1,7 +1,7 @@
 package memcached
 
 import (
-	"github.com/andrewfrench/sessions"
+	"github.com/cryptotradev/sessions"
 	"github.com/bradfitz/gomemcache/memcache"
 	gsm "github.com/bradleypeabody/gorilla-sessions-memcache"
 )
